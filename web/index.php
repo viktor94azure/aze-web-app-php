@@ -23,7 +23,7 @@
     <body>
         <h3>Top cities in Bulgaria</h3>
         <br />
-        <table>
+        <table border="1">
 <?php
     foreach ($cities as $c => $p) {
         print "<tr>\n";
