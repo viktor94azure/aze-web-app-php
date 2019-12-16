@@ -33,5 +33,7 @@
     }
 ?>
         </table>
+        <br /><br /><br />
+        Running on <b><?php echo gethostname(); ?></b>
     </body>
 </html>
