@@ -18,10 +18,10 @@
 ?>
 <html>
     <head>
-        <title>Top cities in Bulgaria</title>
+        <title>Top 10 cities in Bulgaria</title>
     </head>
     <body>
-        <h3>Top cities in Bulgaria</h3>
+        <h1>Top 10 cities in Bulgaria</h1>
         <br />
         <table border="1">
 <?php
