@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "azekubernetes-224b"
+    labels:
+        app: "azekubernetes-224b"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: aze-kubernetes89d9-azekubernetes-224b.c88570b657904b4ebc9f.westeurope.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "azekubernetes-224b"
+                servicePort: 80
