@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "viksata-8186"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "viksata-8186"
+  template:
+    metadata:
+      labels:
+        app: "viksata-8186"
+    spec:
+      containers:
+        - name: "viksata-8186"
+          image: "myappviks.azurecr.io/viksata"
+          ports:
+          - containerPort: 80
